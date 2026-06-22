@@ -1,0 +1,53 @@
+# ==============================================
+# Ghostty Config
+# ==============================================
+
+# Font Configuration
+font-family = "JetBrains Mono NL"
+font-family-bold = "JetBrains Mono NL Bold"
+font-family-italic = "JetBrains Mono NL Italic"
+font-family-bold-italic = "JetBrains Mono NL Bold Italic"
+font-size = 13.5
+font-thicken = true
+font-thicken-strength = 180
+
+# Extra vertical and horizontal spacing
+adjust-cell-height = 20%
+adjust-cell-width = 2%
+
+# Cursor
+cursor-style = bar
+
+# Window Padding & Decoration
+window-padding-x = 4
+window-padding-y = 2
+window-decoration = auto
+window-theme = system
+macos-titlebar-style = hidden
+fullscreen = true
+
+# Theme
+theme = "Catppuccin Mocha"
+
+# Mouse Behaviour
+mouse-hide-while-typing = true
+
+# Scrollback
+scrollback-limit = 10000
+
+# Tell Ghostty to stop intercepting cmd+a and pass it raw to tmux
+keybind = cmd+a=unbind
+
+# macOS Specifics
+macos-option-as-alt = false
+
+# General Application Behavior
+quit-after-last-window-closed = true
+
+# Clipboard
+clipboard-paste-protection = true
+copy-on-select = true
+
+# Update
+auto-update = off
+
